@@ -43,10 +43,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>2tnuhjcf9vs</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>SKN 2024/1</SampleValue>
+      <SampleValue>CAIP 2023/116</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>2</Id>
@@ -90,10 +90,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>28dl9p9sp2k</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>Transporta pakalpojumi neregulāriem pasažieru pārvadājumiem Salaspils kultūras nama interešu izglītības un amatiermākslas kolektīviem</SampleValue>
+      <SampleValue>Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” un “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractAddTaskSourceUrlItem">
       <Id>3</Id>
@@ -115,7 +115,7 @@
       <CustomizeField/>
       <ExtractType>ExtractAddTaskSourceUrl</ExtractType>
       <FixedValue/>
-      <SourceUrl>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/117140</SourceUrl>
+      <SourceUrl>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/109239</SourceUrl>
       <IsAppend>false</IsAppend>
       <MatchAll>false</MatchAll>
       <NullValue/>
@@ -137,10 +137,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>jcm5y0xtuk</uid>
       <MenuType>ShowAddTaskSourceUrl</MenuType>
-      <SampleValue>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/117140</SampleValue>
+      <SampleValue>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/109239</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>4</Id>
@@ -157,110 +157,18 @@
       <AllowDefaultValue>false</AllowDefaultValue>
       <AlertWhenNotFound>false</AlertWhenNotFound>
       <AbsXpath>//div[@id="uxAuthor"]/div[1]/div[1]/div[1]/span[1]</AbsXpath>
-      <IsIFrame>false</IsIFrame>
-      <IFrameAbsXPath/>
-      <CustomizeField/>
-      <ExtractType>ExtractText</ExtractType>
-      <FixedValue/>
-      <SourceUrl/>
-      <IsAppend>false</IsAppend>
-      <MatchAll>false</MatchAll>
-      <NullValue/>
-      <OCRType/>
-      <PageSourceReg/>
-      <type/>
-      <IsUniqueGroup>false</IsUniqueGroup>
-      <UseBackupPath>false</UseBackupPath>
-      <UseBackupIframePath>false</UseBackupIframePath>
-      <UseBackupRelativePath>false</UseBackupRelativePath>
-      <IsDownloadFile>false</IsDownloadFile>
-      <downloadFieldKey/>
-      <DownloadFileConfig>
-        <downloadFileRenameType>1</downloadFileRenameType>
-        <repeatValue>2</repeatValue>
-        <mutipleUrlConfig>
-          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
-          <urlSplitType>0</urlSplitType>
-        </mutipleUrlConfig>
-        <field/>
-      </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
-      <uid>93ztuxm8pf4</uid>
-      <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>
-        Salaspils kultūras nams, reģ. numurs: 90011556135
-    </SampleValue>
-    </ExtractItem>
-    <ExtractItem xsi:type="ExtractTextItem">
-      <Id>5</Id>
-      <ParentId>0</ParentId>
-      <Name>Announced</Name>
-      <Header>Announced</Header>
-      <UseRelativeXPath>false</UseRelativeXPath>
-      <RelativeXpath/>
-      <BackUpRelativeXPath/>
-      <BackUpIframeXPath/>
-      <BackUpAbsXPath/>
-      <AllowNull>true</AllowNull>
-      <AllowSkip>false</AllowSkip>
-      <AllowDefaultValue>false</AllowDefaultValue>
-      <AlertWhenNotFound>false</AlertWhenNotFound>
-      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]</AbsXpath>
-      <IsIFrame>false</IsIFrame>
-      <IFrameAbsXPath/>
-      <CustomizeField/>
-      <ExtractType>ExtractText</ExtractType>
-      <FixedValue/>
-      <SourceUrl/>
-      <IsAppend>false</IsAppend>
-      <MatchAll>false</MatchAll>
-      <NullValue/>
-      <OCRType/>
-      <PageSourceReg/>
-      <type/>
-      <IsUniqueGroup>false</IsUniqueGroup>
-      <UseBackupPath>false</UseBackupPath>
-      <UseBackupIframePath>false</UseBackupIframePath>
-      <UseBackupRelativePath>false</UseBackupRelativePath>
-      <IsDownloadFile>false</IsDownloadFile>
-      <downloadFieldKey/>
-      <DownloadFileConfig>
-        <downloadFileRenameType>1</downloadFileRenameType>
-        <repeatValue>2</repeatValue>
-        <mutipleUrlConfig>
-          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
-          <urlSplitType>0</urlSplitType>
-        </mutipleUrlConfig>
-        <field/>
-      </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
-      <uid>du8w79t1wnn</uid>
-      <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>13.02.2024</SampleValue>
-    </ExtractItem>
-    <ExtractItem xsi:type="ExtractTextItem">
-      <Id>6</Id>
-      <ParentId>0</ParentId>
-      <Name>Deadline</Name>
-      <Header>Deadline</Header>
-      <UseRelativeXPath>false</UseRelativeXPath>
-      <RelativeXpath/>
-      <BackUpRelativeXPath/>
-      <BackUpIframeXPath/>
-      <BackUpAbsXPath/>
-      <AllowNull>true</AllowNull>
-      <AllowSkip>false</AllowSkip>
-      <AllowDefaultValue>false</AllowDefaultValue>
-      <AlertWhenNotFound>false</AlertWhenNotFound>
-      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[4]/div[1]/span[1]</AbsXpath>
       <Operations>
-        <Index>231</Index>
-        <Name>Match with Regular Expression</Name>
-        <Input>28.02.2024 09:00 (scheduled)</Input>
-        <Output>28.02.2024 09:00</Output>
-        <parameters>\d+\.\d+\.\d+\s\d+\:\d+</parameters>
-        <parameters>true</parameters>
-        <FormatType>RegMatch</FormatType>
+        <Index>379</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514, reģ. numurs: 90011524360
+    </Input>
+        <Output>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514
+    </Output>
+        <parameters>(.+)\,\sre(.+)\.\snumurs\:\s[0-9]+</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
         <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
       </Operations>
       <IsIFrame>false</IsIFrame>
@@ -290,13 +198,129 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
-      <uid>3dc2g7c7isc</uid>
+      <belongTo>1lh8lc4gaqd</belongTo>
+      <uid>93ztuxm8pf4</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>28.02.2024 09:00</SampleValue>
+      <SampleValue>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514
+    </SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
-      <Id>7</Id>
+      <Id>5</Id>
+      <ParentId>0</ParentId>
+      <Name>Announced</Name>
+      <Header>Announced</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>579</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>09.11.2023</Input>
+        <Output>2023-11-09</Output>
+        <parameters>(.+)\.(.+)\.(.+)</parameters>
+        <parameters>$3-$2-$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>1lh8lc4gaqd</belongTo>
+      <uid>85u4t6wykna</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue>2023-11-09</SampleValue>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>9</Id>
+      <ParentId>0</ParentId>
+      <Name>Deadline</Name>
+      <Header>Deadline</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[4]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>905</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>12.12.2023 10:00</Input>
+        <Output>2023-12-12 10:00</Output>
+        <parameters>(.+)\.(.+)\.(.+)\s([0-9]{2}):([0-9]{2})(.*)</parameters>
+        <parameters>$3-$2-$1 $4:$5</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>1lh8lc4gaqd</belongTo>
+      <uid>109u6akgf3q</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>6</Id>
       <ParentId>0</ParentId>
       <Name>Procedure</Name>
       <Header>Procedure</Header>
@@ -337,17 +361,17 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>prfcm5fdmi</uid>
       <MenuType>ShowXpathMenu</MenuType>
       <SampleValue>
     
-        Mazie iepirkumi
+        Open competition
     
 </SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
-      <Id>8</Id>
+      <Id>7</Id>
       <ParentId>0</ParentId>
       <Name>Lots</Name>
       <Header>Lots</Header>
@@ -483,7 +507,7 @@
 
 
             // dati
-var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":"413223.14 EUR","FormattedContractDuration":"24 Months","StatusTitle":"Tenders/ applications submitted","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":1,"OpenOnLoad":false,"IsDisabled":false,"Id":255610,"Version":1,"Identifier":255610,"Xid":2539627884,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":9,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"IES","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Submitted"},{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":"1239669.42 EUR","FormattedContractDuration":"24 Months","StatusTitle":"Tenders/ applications submitted","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":2,"OpenOnLoad":false,"IsDisabled":false,"Id":255611,"Version":1,"Identifier":255611,"Xid":2539627884,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":9,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"IES","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Submitted"}];
+var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":"413223.14 EUR","FormattedContractDuration":"24 Mēneši","StatusTitle":"Piedāvājumi/pieteikumi iesniegti","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":1,"OpenOnLoad":false,"IsDisabled":false,"Id":255610,"Version":1,"Identifier":255610,"Xid":2539627884,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":9,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"IES","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"},{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":"1239669.42 EUR","FormattedContractDuration":"24 Mēneši","StatusTitle":"Piedāvājumi/pieteikumi iesniegti","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":2,"OpenOnLoad":false,"IsDisabled":false,"Id":255611,"Version":1,"Identifier":255611,"Xid":2539627884,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":9,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"IES","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"}];
         function PartsRefresh(data)
         {
         $('#PartsRepeater').repeater('refresh', data);
@@ -625,7 +649,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
 
                                         
                         {
-                    label: 'Nr.',
+                    label: 'N.p.k.',
                             property: 'SequenceNumber',
                             sortable: false,
                                                             width:40
@@ -633,7 +657,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
                         
                         
                         {
-                    label: 'Name',
+                    label: 'Nosaukums',
                             property: 'Title_template',
                             sortable: false,
                                                             width:"60%"
@@ -641,21 +665,21 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
                         
                         
                         {
-                    label: 'Expected contract price',
+                    label: 'Paredzamā līgumcena',
                             property: 'FormattedEstimatedContractPrice',
                             sortable: false,
                                             },
                         
                         
                         {
-                    label: 'Performance of the contract',
+                    label: 'Līguma izpilde',
                             property: 'FormattedContractDuration',
                             sortable: false,
                                             },
                         
                     
                  {
-            label: '&lt;span class="glyphicons glyphicons-circle-info " title="View"&gt;&lt;/span&gt;',
+            label: '&lt;span class="glyphicons glyphicons-circle-info " title="Apskatīt"&gt;&lt;/span&gt;',
                      property: '_gridEdit',
                      sortable: false,
                      className: "grid-edit-column",
@@ -797,15 +821,15 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
             {
                 if (data[i].hasOwnProperty('ImpartialityPermissionExceptionJavascript') &amp;&amp; data[i].ImpartialityPermissionExceptionJavascript != '')
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick=":i: return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", data[i].ImpartialityPermissionExceptionJavascript);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick=":i: return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", data[i].ImpartialityPermissionExceptionJavascript);
                 }
                 else if (_isEditable)
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", i);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
                 }
                 else
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", i);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
                 }
             }
             else
@@ -868,7 +892,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
         isRefreshRecordCount: false,
         resetCurrentPageAfterRefresh: true,
     list_selectable: false,
-    list_noItemsHTML: 'No entry added',
+    list_noItemsHTML: 'Nav pievienots neviens ieraksts.',
     list_rowRendered: gridRowRenderer,
     dataSource: function (options, callback) { Parts_dataSource (options, callback) ;},
         list_after: function () {
@@ -905,7 +929,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
     
 
         
-            Nr.Nr.NameNameExpected contract priceExpected contract pricePerformance of the contractPerformance of the contract1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība413223.14 EUR24 Months2.Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība1239669.42 EUR24 Months
+            N.p.k.N.p.k.NosaukumsNosaukumsParedzamā līgumcenaParedzamā līgumcenaLīguma izpildeLīguma izpilde1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība413223.14 EUR24 Mēneši2.Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība1239669.42 EUR24 Mēneši
             
         
         
@@ -913,8 +937,8 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Būvprojekta “Tunelis starp Da
 
 </Input>
         <Output>',&#xD;
-Performance of the contract1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība413223.14 EUR24 Months2.Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība1239669.42 EUR24 Months</Output>
-        <parameters>(?&lt;=(Performance of the contract))(.+?)(?=\n)</parameters>
+Līguma izpilde1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģertrūdes ielu, Rīgā” izstrāde un autoruzraudzība413223.14 EUR24 Mēneši2.Būvprojekta “Tunelis starp Rēznas ielu un Pildas ielu, Rīgā” izstrāde un autoruzraudzība1239669.42 EUR24 Mēneši</Output>
+        <parameters>(?&lt;=(Performance of the contract|izpilde))(.+?)(?=\n)</parameters>
         <parameters>true</parameters>
         <FormatType>RegMatch</FormatType>
         <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
@@ -946,13 +970,13 @@ Performance of the contract1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģ
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>6c9bwfv76bh</uid>
       <MenuType>ShowXpathMenu</MenuType>
       <SampleValue/>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
-      <Id>9</Id>
+      <Id>8</Id>
       <ParentId>0</ParentId>
       <Name>Price</Name>
       <Header>Price</Header>
@@ -993,10 +1017,10 @@ Performance of the contract1.Būvprojekta “Tunelis starp Daugavpils ielu un Ģ
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>2bbd9a6zyae</belongTo>
+      <belongTo>1lh8lc4gaqd</belongTo>
       <uid>v7p15a9mgv8</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>9920.00
+      <SampleValue>1652892.56
 
     EUR
 </SampleValue>
