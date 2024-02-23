@@ -1,5 +1,5 @@
+<!--Example of malfunctioning "Lots": https://www.eis.gov.lv/EKEIS/Supplier/Procurement/116354-- because there's extra new line in the table element-->
 <?xml version="1.0"?>
-<!--comment-->
 <ExtractTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Items>
     <ExtractItem xsi:type="ExtractTextItem">
@@ -44,10 +44,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>2tnuhjcf9vs</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>VN2024/13 ERAF</SampleValue>
+      <SampleValue>LVC 2024/06/AC</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>2</Id>
@@ -67,8 +67,8 @@
       <Operations>
         <Index>963</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>Būvniecības ieceres dokumentācijas izstrāde un autoruzraudzība objektam 335 un 329 East 50th Steet, Ņujorka, Amerikas Savienotajās Valstīs</Input>
-        <Output>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/Būvniecības ieceres dokumentācijas izstrāde un autoruzraudzība objektam 335 un 329 East 50th Steet, Ņujorka, Amerikas Savienotajās Valstīs</Output>
+        <Input>Tiltu būvdarbi (Dzedrupes tilts autoceļa V1376 Kūļi - Dzedri 2,80 km un Abavas tilts autoceļa V1464 Dziļkalni - Pūre 6,50 km un autoceļa V1464 Dziļkalni - Pūre km 5,850 - 6,857) (2 līgumi)</Input>
+        <Output>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/Tiltu būvdarbi (Dzedrupes tilts autoceļa V1376 Kūļi - Dzedri 2,80 km un Abavas tilts autoceļa V1464 Dziļkalni - Pūre 6,50 km un autoceļa V1464 Dziļkalni - Pūre km 5,850 - 6,857) (2 līgumi)</Output>
         <parameters>(.+)</parameters>
         <parameters>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/$1</parameters>
         <FormatType>RegReplace</FormatType>
@@ -101,10 +101,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>28dl9p9sp2k</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue/>
+      <SampleValue>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/Tiltu būvdarbi (Dzedrupes tilts autoceļa V1376 Kūļi - Dzedri 2,80 km un Abavas tilts autoceļa V1464 Dziļkalni - Pūre 6,50 km un autoceļa V1464 Dziļkalni - Pūre km 5,850 - 6,857) (2 līgumi)</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractAddTaskSourceUrlItem">
       <Id>3</Id>
@@ -126,7 +126,7 @@
       <CustomizeField/>
       <ExtractType>ExtractAddTaskSourceUrl</ExtractType>
       <FixedValue/>
-      <SourceUrl>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/117736</SourceUrl>
+      <SourceUrl>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/116354</SourceUrl>
       <IsAppend>false</IsAppend>
       <MatchAll>false</MatchAll>
       <NullValue/>
@@ -148,10 +148,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>jcm5y0xtuk</uid>
       <MenuType>ShowAddTaskSourceUrl</MenuType>
-      <SampleValue>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/117736</SampleValue>
+      <SampleValue>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/116354</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>4</Id>
@@ -241,10 +241,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>93ztuxm8pf4</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue/>
+      <SampleValue>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/"Latvijas Valsts ceļi" VSIA</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>5</Id>
@@ -264,8 +264,8 @@
       <Operations>
         <Index>579</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>22.02.2024</Input>
-        <Output>2024-02-22</Output>
+        <Input>05.02.2024</Input>
+        <Output>2024-02-05</Output>
         <parameters>(.+)\.(.+)\.(.+)</parameters>
         <parameters>$3-$2-$1</parameters>
         <FormatType>RegReplace</FormatType>
@@ -298,10 +298,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>85u4t6wykna</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>2024-02-22</SampleValue>
+      <SampleValue>2024-02-05</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>6</Id>
@@ -321,8 +321,8 @@
       <Operations>
         <Index>905</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>11.03.2024 14:00 (plānots)</Input>
-        <Output>2024-03-11 14:00</Output>
+        <Input>21.02.2024 10:00</Input>
+        <Output>2024-02-21 10:00</Output>
         <parameters>(.+)\.(.+)\.(.+)\s([0-9]{2}):([0-9]{2})(.*)</parameters>
         <parameters>$3-$2-$1 $4:$5</parameters>
         <FormatType>RegReplace</FormatType>
@@ -355,10 +355,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>109u6akgf3q</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>2024-03-11 14:00</SampleValue>
+      <SampleValue>2024-02-21 10:00</SampleValue>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>7</Id>
@@ -380,10 +380,10 @@
         <Name>Match with Regular Expression</Name>
         <Input>
     
-        Mazie iepirkumi
+        Atklāts konkurss
     
 </Input>
-        <Output>Mazie iepirkumi</Output>
+        <Output/>
         <parameters>Mazie iepirkumi|Small procurement(.+)</parameters>
         <parameters>false</parameters>
         <FormatType>RegMatch</FormatType>
@@ -392,8 +392,8 @@
       <Operations>
         <Index>96</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>Mazie iepirkumi</Input>
-        <Output>small procurement</Output>
+        <Input/>
+        <Output/>
         <parameters>Mazie iepirkumi|Small procurement(.+)</parameters>
         <parameters>small procurement</parameters>
         <FormatType>RegReplace</FormatType>
@@ -426,10 +426,10 @@
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>prfcm5fdmi</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue>small procurement</SampleValue>
+      <SampleValue/>
     </ExtractItem>
     <ExtractItem xsi:type="ExtractTextItem">
       <Id>8</Id>
@@ -568,7 +568,7 @@
 
 
             // dati
-var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte","FormattedEstimatedContractPrice":null,"FormattedContractDuration":"360 Dienas","StatusTitle":"Publicēta","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":1,"OpenOnLoad":false,"IsDisabled":false,"Id":264618,"Version":1,"Identifier":264618,"Xid":2604850608,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":7,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"PUB","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"},{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte","FormattedEstimatedContractPrice":null,"FormattedContractDuration":"360 Dienas","StatusTitle":"Publicēta","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":2,"OpenOnLoad":false,"IsDisabled":false,"Id":264621,"Version":1,"Identifier":264621,"Xid":2604850608,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":7,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"PUB","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"}];
+var Parts_items = [{"SequenceNumber":0,"Title":"Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":null,"FormattedContractDuration":"319 Days","StatusTitle":"Contracts concluded","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":1,"OpenOnLoad":false,"IsDisabled":false,"Id":241006,"Version":2,"Identifier":238882,"Xid":2428613634,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":12,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"LIG","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Submitted"},{"SequenceNumber":0,"Title":"Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība","FormattedEstimatedContractPrice":null,"FormattedContractDuration":"297 Days","StatusTitle":"Contracts concluded","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":2,"OpenOnLoad":false,"IsDisabled":false,"Id":241007,"Version":2,"Identifier":238883,"Xid":2434130565,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":12,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"LIG","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Submitted"}];
         function PartsRefresh(data)
         {
         $('#PartsRepeater').repeater('refresh', data);
@@ -710,7 +710,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
 
                                         
                         {
-                    label: 'N.p.k.',
+                    label: 'Nr.',
                             property: 'SequenceNumber',
                             sortable: false,
                                                             width:40
@@ -718,7 +718,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
                         
                         
                         {
-                    label: 'Nosaukums',
+                    label: 'Name',
                             property: 'Title_template',
                             sortable: false,
                                                             width:"60%"
@@ -726,14 +726,14 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
                         
                         
                         {
-                    label: 'Līguma izpilde',
+                    label: 'Performance of the contract',
                             property: 'FormattedContractDuration',
                             sortable: false,
                                             },
                         
                     
                  {
-            label: '&lt;span class="glyphicons glyphicons-circle-info " title="Apskatīt"&gt;&lt;/span&gt;',
+            label: '&lt;span class="glyphicons glyphicons-circle-info " title="View"&gt;&lt;/span&gt;',
                      property: '_gridEdit',
                      sortable: false,
                      className: "grid-edit-column",
@@ -867,15 +867,15 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
             {
                 if (data[i].hasOwnProperty('ImpartialityPermissionExceptionJavascript') &amp;&amp; data[i].ImpartialityPermissionExceptionJavascript != '')
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick=":i: return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", data[i].ImpartialityPermissionExceptionJavascript);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick=":i: return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", data[i].ImpartialityPermissionExceptionJavascript);
                 }
                 else if (_isEditable)
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", i);
                 }
                 else
                 {
-                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="View"&gt;&lt;/a&gt;'.replace(":i:", i);
                 }
             }
             else
@@ -938,7 +938,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
         isRefreshRecordCount: false,
         resetCurrentPageAfterRefresh: true,
     list_selectable: false,
-    list_noItemsHTML: 'Nav pievienots neviens ieraksts.',
+    list_noItemsHTML: 'No entry added',
     list_rowRendered: gridRowRenderer,
     dataSource: function (options, callback) { Parts_dataSource (options, callback) ;},
         list_after: function () {
@@ -975,7 +975,7 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
     
 
         
-            N.p.k.N.p.k.NosaukumsNosaukumsLīguma izpildeLīguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas
+            Nr.Nr.NameNamePerformance of the contractPerformance of the contract1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days
             
         
         
@@ -983,8 +983,8 @@ var Parts_items = [{"SequenceNumber":0,"Title":"Galvenās valsts mikromobilitāt
 
 </Input>
         <Output>',&#xD;
-Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Output>
-        <parameters>(?&lt;=(Performance of the contract|izpilde))(.+?)(?=\n)</parameters>
+Performance of the contract1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Output>
+        <parameters>(?&lt;=contract|izpilde)(.*)</parameters>
         <parameters>true</parameters>
         <FormatType>RegMatch</FormatType>
         <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
@@ -993,8 +993,8 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
         <Index>671</Index>
         <Name>Replace with Regular Expression</Name>
         <Input>',&#xD;
-Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Input>
-        <Output>',Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Output>
+Performance of the contract1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Input>
+        <Output>',Performance of the contract1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Output>
         <parameters>(?:\r\n?|\n)(.+)</parameters>
         <parameters>$1</parameters>
         <FormatType>RegReplace</FormatType>
@@ -1003,8 +1003,8 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
       <Operations>
         <Index>878</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>',Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Input>
-        <Output>1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Output>
+        <Input>',Performance of the contract1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Input>
+        <Output>1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Output>
         <parameters>(.+)(contract|izpilde)(.+)</parameters>
         <parameters>$3</parameters>
         <FormatType>RegReplace</FormatType>
@@ -1013,9 +1013,9 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
       <Operations>
         <Index>126</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte360 Dienas2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte360 Dienas</Input>
-        <Output>1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte 2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte </Output>
-        <parameters>((?:\d\d\d Dienas)|(?:\d\d Mēneši))</parameters>
+        <Input>1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība319 Days2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība297 Days</Input>
+        <Output>1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība 2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība </Output>
+        <parameters>(?:(\d+\s(Dienas|Days))|(\d+\s(Mēneši|Months)))</parameters>
         <parameters> </parameters>
         <FormatType>RegReplace</FormatType>
         <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
@@ -1023,8 +1023,8 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
       <Operations>
         <Index>873</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte 2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte </Input>
-        <Output>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēzekne - Ludza izpēte 2.Galvenās valsts mikromobilitātes infrastruktūras posmā Jēkabpils - Līvāni izpēte </Output>
+        <Input>1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība 2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība </Input>
+        <Output>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/1.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V187 Valmiera - Rauna posmā no km 3,60 līdz km 10,30 (no Valmieras līdz Mūrmuižai) būvprojekta izstrāde un autoruzraudzība 2.Gājēju un velosipēdu ceļa gar valsts vietējo autoceļu V1446 Tukums – Milzkalne – Smārde - Slampe posmā no Tukuma līdz Milzkalnei būvprojekta izstrāde un autoruzraudzība </Output>
         <parameters>(.+)</parameters>
         <parameters>https://www.deepl.com/translator?utm_source=lingueebanner1&amp;il=lv#lv/en/$1</parameters>
         <FormatType>RegReplace</FormatType>
@@ -1057,7 +1057,7 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>6c9bwfv76bh</uid>
       <MenuType>ShowXpathMenu</MenuType>
       <SampleValue/>
@@ -1081,13 +1081,13 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
         <Index>107</Index>
         <Name>Replace with Regular Expression</Name>
         <Input>
-    8
+    180
 
 
-    Mēneši
+    Dienas
 </Input>
-        <Output>    8
-    Mēneši
+        <Output>    180
+    Dienas
 </Output>
         <parameters>\n(.+)\n\n</parameters>
         <parameters>$1</parameters>
@@ -1097,10 +1097,10 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
       <Operations>
         <Index>107</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>    8
-    Mēneši
+        <Input>    180
+    Dienas
 </Input>
-        <Output>    8    Mēneši
+        <Output>    180    Dienas
 </Output>
         <parameters>(?:\r\n?|\n)(.+)</parameters>
         <parameters>$1</parameters>
@@ -1110,11 +1110,11 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
       <Operations>
         <Index>710</Index>
         <Name>Replace with Regular Expression</Name>
-        <Input>    8    Mēneši
+        <Input>    180    Dienas
 </Input>
         <Output>
 </Output>
-        <parameters>(.+)(Mēneši|Dienas)</parameters>
+        <parameters>(.+)(Mēneši|Dienas|Month|Days)</parameters>
         <parameters/>
         <FormatType>RegReplace</FormatType>
         <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
@@ -1146,10 +1146,11 @@ Līguma izpilde1.Galvenās valsts mikromobilitātes infrastruktūras posmā Rēz
         </mutipleUrlConfig>
         <field/>
       </DownloadFileConfig>
-      <belongTo>3jesuafxwz</belongTo>
+      <belongTo>0c85waxju1kj</belongTo>
       <uid>v7p15a9mgv8</uid>
       <MenuType>ShowXpathMenu</MenuType>
-      <SampleValue/>
+      <SampleValue>
+</SampleValue>
     </ExtractItem>
   </Items>
 </ExtractTemplate>
