@@ -1,0 +1,1191 @@
+<?xml version="1.0"?>
+<ExtractTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>1</Id>
+      <ParentId>0</ParentId>
+      <Name>ID</Name>
+      <Header>ID</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="uxProcurement"]/div[1]/div[3]/div[1]/span[1]</AbsXpath>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>2tnuhjcf9vs</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue>LVC 2024/13/AC</SampleValue>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>2</Id>
+      <ParentId>0</ParentId>
+      <Name>Object</Name>
+      <Header>Object</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="uxProcurement"]/div[1]/div[4]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>279</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>Luksoforu objektu projektēšana un autoruzraudzība</Input>
+        <Output>=concat(g2;" ";i2;" ";"Luksoforu objektu projektēšana un autoruzraudzība";h2;" ")</Output>
+        <parameters>(.+)</parameters>
+        <parameters>=concat(g2;" ";i2;" ";"$1";h2;" ")</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>true</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>28dl9p9sp2k</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractAddTaskSourceUrlItem">
+      <Id>3</Id>
+      <ParentId>0</ParentId>
+      <Name>Link</Name>
+      <Header>Link</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath/>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractAddTaskSourceUrl</ExtractType>
+      <FixedValue/>
+      <SourceUrl>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/116137</SourceUrl>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>jcm5y0xtuk</uid>
+      <MenuType>ShowAddTaskSourceUrl</MenuType>
+      <SampleValue>https://www.eis.gov.lv/EKEIS/Supplier/Procurement/116137</SampleValue>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>4</Id>
+      <ParentId>0</ParentId>
+      <Name>Client</Name>
+      <Header>Client</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="uxAuthor"]/div[1]/div[1]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>379</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514, reģ. numurs: 90011524360
+    </Input>
+        <Output>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514
+    </Output>
+        <parameters>(.+)\,\sre(.+)\.\snumurs\:\s[0-9]+</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>517</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>
+        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514
+    </Input>
+        <Output>        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514    </Output>
+        <parameters>(?:\r\n?|\n)(.+)</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>874</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>        RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514    </Input>
+        <Output>RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514</Output>
+        <parameters>(?:\s\s)</parameters>
+        <parameters/>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>119</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>RD iestāde: Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde. RD iestādes kods: 1514</Input>
+        <Output>Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde</Output>
+        <parameters>(?:\. RD iestādes kods\: \d+|RD iestāde\: | AS| SIA| VAS| VSIA|\")</parameters>
+        <parameters/>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>209</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde</Input>
+        <Output>=proper("Rīgas valstspilsētas pašvaldības Centrālās administrācijas Iepirkumu pārvalde")</Output>
+        <parameters>(.+)</parameters>
+        <parameters>=proper("$1")</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>93ztuxm8pf4</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>5</Id>
+      <ParentId>0</ParentId>
+      <Name>Announced</Name>
+      <Header>Announced</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[2]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>579</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>06.02.2024</Input>
+        <Output>2024-02-06</Output>
+        <parameters>(.+)\.(.+)\.(.+)</parameters>
+        <parameters>$3-$2-$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>85u4t6wykna</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue>2024-02-06</SampleValue>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>6</Id>
+      <ParentId>0</ParentId>
+      <Name>Deadline</Name>
+      <Header>Deadline</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@class="panel-group"]/div[5]/div[2]/div[1]/div[1]/div[4]/div[1]/span[1]</AbsXpath>
+      <Operations>
+        <Index>905</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>23.02.2024 10:00</Input>
+        <Output>2024-02-23 10:00</Output>
+        <parameters>(.+)\.(.+)\.(.+)\s([0-9]{2}):([0-9]{2})(.*)</parameters>
+        <parameters>$3-$2-$1 $4:$5</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>109u6akgf3q</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue>2024-02-23 10:00</SampleValue>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>7</Id>
+      <ParentId>0</ParentId>
+      <Name>Procedure</Name>
+      <Header>Procedure</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath>/div[1]</RelativeXpath>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="uxProcurement"]/div[1]/div[6]/div[1]</AbsXpath>
+      <Operations>
+        <Index>720</Index>
+        <Name>Match with Regular Expression</Name>
+        <Input>
+    
+        Atklāts konkurss
+    
+</Input>
+        <Output/>
+        <parameters>Mazie iepirkumi|Small procurement(.+)</parameters>
+        <parameters>false</parameters>
+        <FormatType>RegMatch</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>96</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input/>
+        <Output/>
+        <parameters>Mazie iepirkumi|Small procurement(.+)</parameters>
+        <parameters>=CONCAT("Small procurement: ")</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>prfcm5fdmi</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>8</Id>
+      <ParentId>0</ParentId>
+      <Name>Lots</Name>
+      <Header>Lots</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="cuxParts"]/div[1]</AbsXpath>
+      <Operations>
+        <Index>823</Index>
+        <Name>Match with Regular Expression</Name>
+        <Input>
+
+
+
+
+
+    var Parts_gridItems = null;
+    var Parts_gridVisibleItems = null;
+    var Parts_gridSelectedIdList = new Array();
+            var Parts_scrollingPosition = null;
+
+
+    function PartsMaintain(record, number, gridRecord)
+            {
+            
+        var parentId = null; var parentXid = null; var parentIdentifier = null; var parentLinkId = null; var parentLinkRole = null; var parentObjectTypeCode = null;
+        
+
+                var sequenceNumber = $('#PartsRepeater').repeater('getSequenceNumber', gridRecord);
+
+        Parts_scrollingPosition = $(window).scrollTop();
+
+                openModal({
+                    url: "/EKEIS/supplier/procurementpart",
+                                        data: {
+                        id: record == null ? null : (record.Id ? record.Id : null),
+                xid: record == null ? null : (record.hasOwnProperty("Xid") ? record.Xid : null),
+                number: number,
+                sequenceNumber: sequenceNumber,
+                set: "PartsMaintainSuccess",
+                get: "PartsGetRecord",
+                remove: "PartsMaintainRemove",
+                parentId: parentId,
+                parentXid: parentXid,
+                parentLinkId: parentLinkId,
+                parentLinkRole: parentLinkRole,
+                parentObjectTypeCode: parentObjectTypeCode,
+                        parentIdentifier: parentIdentifier
+                        , objectId: typeof(record) == 'undefined' || record == null ? null : record.Identifier
+                    }
+                });
+            }
+
+
+
+            function PartsMaintainRemove(data, parentXid)
+            {
+            
+        var recordId;
+                    if (data &amp;&amp; typeof(data) == 'object')
+                    {
+                        recordId = data.RecordId;
+                        if (data.hasOwnProperty('ParentXid'))
+                        {
+                            parentXid = data.ParentXid;
+                        }
+                    }
+                    else
+                    {
+                        recordId = data;
+                    }
+                                    
+        for(var i = 0; i &lt; Parts_items.length; i++) {
+                            if (Parts_items[i].Id == recordId)
+            {
+                PartsDelete(Parts_items[i]);
+                                break;
+                            }
+                        }
+        
+                            
+            }
+
+            function PartsMaintainSuccess(record, number)
+            {
+            
+        if (typeof(number) == "undefined")
+                    {
+                        if (record != null &amp;&amp; record.hasOwnProperty("Number") &amp;&amp; record.Number != null)
+                        {
+                            number = record.Number;
+                        }
+                    }
+
+                                    
+        PartsReplace(record, number);
+        
+                    // jebkura gadījumā mēģinām izsaukt komandas funkciju (piem, lai būtu iespēja izdarīt vel kaut ko arī dzēšanas gadījumā)
+                    if (typeof(PartsOnCommand) !== 'undefined')
+        {
+            PartsOnCommand(null, "edit", record, null, null, number);
+                    }
+        
+
+                var scrollTo = Parts_scrollingPosition;
+
+                
+                if (scrollTo != null) {
+                    var maxScrollTime = 2000;
+                    var scrollInterval = 200;
+                    var elapsedScrollTime = 0;
+                    var pageHeight = $(document).height();
+
+                    var intr = setInterval(function () {
+                        $(window).scrollTop(scrollTo);
+                        elapsedScrollTime += scrollInterval;
+
+                        if (elapsedScrollTime &gt; maxScrollTime || pageHeight &gt;= scrollTo) {
+                            clearInterval(intr);
+                        }
+                    }, scrollInterval);
+
+                    Parts_scrollingPosition =null;
+                }
+            }
+
+
+
+            // dati
+var Parts_items = [{"SequenceNumber":0,"Title":"1.daļa. RAISKUMA PAGASTS","FormattedEstimatedContractPrice":"27350 EUR","FormattedContractDuration":"1 Gadi","StatusTitle":"Publicēta","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":1,"OpenOnLoad":false,"IsDisabled":false,"Id":267867,"Version":1,"Identifier":267867,"Xid":2626396331,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":7,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"PUB","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"},{"SequenceNumber":0,"Title":"2.daļa. STRAUPES PAGASTS.","FormattedEstimatedContractPrice":"24700 EUR","FormattedContractDuration":"1 Gadi","StatusTitle":"Publicēta","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":2,"OpenOnLoad":false,"IsDisabled":false,"Id":267875,"Version":1,"Identifier":267875,"Xid":2626396331,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":7,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"PUB","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"},{"SequenceNumber":0,"Title":"3.daļa. STALBES PAGASTS","FormattedEstimatedContractPrice":"40100 EUR","FormattedContractDuration":"1 Gadi","StatusTitle":"Publicēta","IsSelected":false,"IsDeletable":true,"IsEditable":true,"IsViewable":false,"IsMovable":true,"HasEditAccess":null,"ImpartialityPermissionExceptionCode":null,"ImpartialityPermissionExceptionJavascript":"","Number":3,"OpenOnLoad":false,"IsDisabled":false,"Id":267876,"Version":1,"Identifier":267876,"Xid":2626396331,"ObjectTypeCode":null,"LinkRole":null,"LinkObjectTypeCode":null,"LinkTypeCode":null,"LinkId":null,"LinkXid":null,"LinkVersion":null,"StatusId":7,"Command":null,"Signature":null,"IsSignProcess":false,"TypeCode":null,"ProposalOrganizationId":null,"StatusCode":"PUB","IsEditMode":true,"IsReadOnly":false,"ViewPrefix":null,"SupplierProposalDisplayedStatusCode":"ISN","SupplierProposalDisplayedStatusTitle":"Iesniegts"}];
+        function PartsRefresh(data)
+        {
+        $('#PartsRepeater').repeater('refresh', data);
+
+        };
+
+        function PartsReplace(data, number, replacedColumns)
+        {
+        $('#PartsRepeater').repeater('replaceItem', data, number, replacedColumns);
+        }
+
+        function PartsDelete(data)
+        {
+        $('#PartsRepeater').repeater('deleteItem', data);
+        };
+
+        function PartsSetLabel(label)
+        {
+        $('#PartsLabel').html(label);
+        }
+
+        function PartsGetData()
+        {
+            return Parts_items;
+        }
+
+        function PartsGetRecordCount()
+        {
+            var data = Parts_items;
+            return data == null  ? 0: data.length;
+        }
+
+        function PartsGetRecord(number)
+        {
+            if (typeof(number) == "undefined")
+            {
+                return null;
+            }
+            return Parts_items[number];
+        }
+
+
+
+        function PartsSwap(record1, record2)
+        {
+            var index1 = null;
+            var index2 = null;
+        $.each(Parts_items, function (index, value) {
+                if (value.Id == record1.Id)
+                {
+                    index1 = index;
+                }
+                if (value.Id == record2.Id)
+                {
+                    index2 = index;
+                }
+            });
+        $('#PartsRepeater').repeater('swapByNumber', index1, index2);
+        }
+
+        function PartsGetSelectedItems()
+        {
+
+            return Parts_gridSelectedIdList;
+            //return $('#PartsRepeater').repeater('list_getSelectedItems');
+        }
+
+        function PartsSetSelectedItems(items, force)
+        {
+        $('#PartsRepeater').repeater('list_setSelectedItems', items, force);
+        }
+
+        function PartsSelectAll(selected, beforeRowSelectionFunction)
+        {
+        Parts_gridSelectedIdList = new Array();
+            if (!selected)
+            {
+            $('#PartsRepeater').repeater('list_clearSelectedItems');
+            }
+            else
+            {
+                var data = PartsGetData();
+                var length = (data == null) ? 0 : data.length;
+                var items = new Array();
+                for (var i = 0; i &lt; length; i++)
+                {
+                    var canSelect = true;
+                    if (typeof beforeRowSelectionFunction !== 'undefined' &amp;&amp; beforeRowSelectionFunction != '') {
+                        canSelect = eval(beforeRowSelectionFunction + '(data[i]);')
+                    }
+                    if (canSelect) {
+                        if (data[i].hasOwnProperty('IsDisabled') &amp;&amp; data[i].IsDisabled) {
+                            canSelect = false;
+                        }
+                    }
+                    if (canSelect) {
+                    Parts_gridSelectedIdList.push(data[i].Id);
+                        items.push({ index: i });
+            }
+        }
+            PartsSetSelectedItems(items);
+    }
+        PartsOnSelected(selected);
+    }
+
+
+
+
+
+
+
+
+    function PartsCommand(element, command, number, itemCommand)
+    {
+        var record = Parts_items[number];
+        var gridRecord = Parts_gridItems[number];
+        var sequenceNumber = $('#PartsRepeater').repeater('getSequenceNumber', gridRecord);
+
+        var eventData = null;
+        switch(command)
+        {
+
+
+                                
+            case 'edit':
+                PartsMaintain(record, number, gridRecord);
+            break;
+                
+        default:
+                PartsOnCommand(element, command, record, itemCommand, eventData, number,gridRecord,sequenceNumber);
+    }
+
+    }
+
+    $(function () {
+
+        // attēlojamās kolonas
+        var Parts_columns = [
+
+                                        
+                        {
+                    label: 'N.p.k.',
+                            property: 'SequenceNumber',
+                            sortable: false,
+                                                            width:40
+                },
+                        
+                        
+                        {
+                    label: 'Nosaukums',
+                            property: 'Title_template',
+                            sortable: false,
+                                                            width:"60%"
+                },
+                        
+                        
+                        {
+                    label: 'Paredzamā līgumcena',
+                            property: 'FormattedEstimatedContractPrice',
+                            sortable: false,
+                                            },
+                        
+                        
+                        {
+                    label: 'Līguma izpilde',
+                            property: 'FormattedContractDuration',
+                            sortable: false,
+                                            },
+                        
+                    
+                 {
+            label: '&lt;span class="glyphicons glyphicons-circle-info " title="Apskatīt"&gt;&lt;/span&gt;',
+                     property: '_gridEdit',
+                     sortable: false,
+                     className: "grid-edit-column",
+                     width:30
+                 },
+                
+        ];
+
+
+
+
+
+    function customColumnRenderer(helpers, callback) {
+        // determine what column is being rendered
+        var column = helpers.columnAttr;
+
+        // get all the data for the entire row
+        var rowData = helpers.rowData;
+        var customMarkup = '';
+
+        // only override the output for specific columns.
+        // will default to output the text value of the row item
+        switch (column) {
+            case 'name':
+                // let's combine name and description into a single column
+                customMarkup = '&lt;div style="font-size:12px;"&gt;' + rowData.name + '&lt;/div&gt;&lt;div class="small text-muted"&gt;' + rowData.description + '&lt;/div&gt;';
+                break;
+            default:
+                // otherwise, just use the existing text value
+                customMarkup = helpers.item.text();
+                break;
+        }
+
+        helpers.item.html(customMarkup);
+
+        callback();
+    }
+
+    function customRowRenderer(helpers, callback) {
+        // let's get the id and add it to the "tr" DOM element
+        var item = helpers.item;
+        item.attr('id', 'row' + helpers.rowData.id);
+
+        callback();
+    }
+
+    PartsLastSortColumn = null;
+    PartsLastSortDirection = null;
+
+    // this example uses a static datasource and
+    // underscore is used to filter, sort, search, etc.
+    function Parts_dataSource(options, callback) {
+        if (options.hasOwnProperty('sortProperty')) {
+            if (PartsLastSortColumn != options.sortProperty
+                || PartsLastSortDirection != options.sortDirection) {
+
+                PartsLastSortColumn = options.sortProperty;
+                PartsLastSortDirection = options.sortDirection;
+
+            }
+        }
+
+        var pageIndex = options.pageIndex;
+        var pageSize = options.pageSize;
+
+        var data = copyObject(Parts_items);
+        var length = data == null  ? 0: data.length;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var columnCommand = "";
+
+            
+            columnCommand = 'SequenceNumber';
+            for (var i = 0; i &lt; length; i++)
+            {
+                
+                
+            }
+            
+            
+    for (var i = 0; i &lt; length; i++)
+    {
+        data[i] ['SequenceNumber'] = (i + 1) + '.';
+    }
+    
+            
+            columnCommand = 'Title';
+            for (var i = 0; i &lt; length; i++)
+            {
+                
+                
+            }
+            
+            
+            columnCommand = 'Title';
+            for (var i = 0; i &lt; length; i++)
+            {
+                data[i][columnCommand + '_template'] = getPartTitle(data[i]);
+
+            }
+            
+            
+            columnCommand = 'FormattedEstimatedContractPrice';
+            for (var i = 0; i &lt; length; i++)
+            {
+                
+                
+            }
+            
+            
+            columnCommand = 'FormattedContractDuration';
+            for (var i = 0; i &lt; length; i++)
+            {
+                
+                
+            }
+            
+
+
+            
+    var columnEdit = '_gridEdit';
+        for (var i = 0; i &lt; length; i++)
+        {
+            var _isEditable = !data[i].hasOwnProperty('IsEditable') || data[i].IsEditable;
+            var _isViewable = !data[i].hasOwnProperty('IsViewable') || data[i].IsViewable;
+
+            if (_isEditable || _isViewable)
+            {
+                if (data[i].hasOwnProperty('ImpartialityPermissionExceptionJavascript') &amp;&amp; data[i].ImpartialityPermissionExceptionJavascript != '')
+                {
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick=":i: return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", data[i].ImpartialityPermissionExceptionJavascript);
+                }
+                else if (_isEditable)
+                {
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
+                }
+                else
+                {
+                    data[i][columnEdit] = '&lt;a class="glyphicons glyphicons-circle-info " href="#" onclick="event.stopPropagation();PartsCommand(this, &amp;#39;edit&amp;#39;, :i:); return false" title="Apskatīt"&gt;&lt;/a&gt;'.replace(":i:", i);
+                }
+            }
+            else
+            {
+                data[i][columnEdit] = '&amp;nbsp;'
+            }
+        }
+    
+
+
+    var totalItems = length;
+    var totalPages = Math.ceil(totalItems / pageSize);
+    var startIndex = (pageIndex * pageSize) + 1;
+    var endIndex = (startIndex + pageSize) - 1;
+    if (endIndex &gt; length) {
+        endIndex = length;
+    }
+
+    var columns = Parts_columns.slice();
+
+
+
+    Parts_gridItems = data;
+
+    if (data != null) {
+        data = data.slice(startIndex - 1, endIndex);
+    }
+
+    Parts_gridVisibleItems = data;
+
+    var dataSource = {
+        page: pageIndex,
+        pages: totalPages,
+        count: totalItems,
+        start: startIndex,
+        end: endIndex,
+        columns: columns,
+        hideHeader : false,
+        items: data == null ? new Array() : data
+    };
+
+
+
+    callback(dataSource);
+
+
+
+    }
+
+    // initialize the repeater
+    var repeater = $('#PartsRepeater');
+    repeater.repeater({
+        postDataId: "Parts",
+        gridSelectedId: "Parts_gridSelectedIdList",
+        itemsId: "Parts_items",
+        addAtBegin: true,
+        gridItemsId: "Parts_gridItems",
+        sequenceNumberProperty: 'SequenceNumber',
+        isPostData: false,
+        isRefreshRecordCount: false,
+        resetCurrentPageAfterRefresh: true,
+    list_selectable: false,
+    list_noItemsHTML: 'Nav pievienots neviens ieraksts.',
+    list_rowRendered: gridRowRenderer,
+    dataSource: function (options, callback) { Parts_dataSource (options, callback) ;},
+        list_after: function () {
+
+
+
+    var data2 = Parts_items;
+        for (var i = 0; i &lt; ((data2 == null) ? 0 : data2.length); i++)
+        {
+            if (data2[i].hasOwnProperty('OpenOnLoad') &amp;&amp; data2[i].OpenOnLoad)
+            {
+                data2[i].OpenOnLoad = false;
+                PartsCommand(data2[i],'edit', i);
+        }
+        }
+
+    }
+    });
+
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+            N.p.k.N.p.k.NosaukumsNosaukumsParedzamā līgumcenaParedzamā līgumcenaLīguma izpildeLīguma izpilde1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi
+            
+        
+        
+    
+
+</Input>
+        <Output>',&#xD;
+Līguma izpilde1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Output>
+        <parameters>(?&lt;=contract|izpilde)(.*)</parameters>
+        <parameters>true</parameters>
+        <FormatType>RegMatch</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>671</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>',&#xD;
+Līguma izpilde1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Input>
+        <Output>',Līguma izpilde1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Output>
+        <parameters>(?:\r\n?|\n)(.+)</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>878</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>',Līguma izpilde1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Input>
+        <Output>1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Output>
+        <parameters>(.+)(contract|izpilde)(.+)</parameters>
+        <parameters>$3</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>126</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>1.1.daļa. RAISKUMA PAGASTS27350 EUR1 Gadi2.2.daļa. STRAUPES PAGASTS.24700 EUR1 Gadi3.3.daļa. STALBES PAGASTS40100 EUR1 Gadi</Input>
+        <Output>1.1.daļa. RAISKUMA PAGASTS27350 EUR 2.2.daļa. STRAUPES PAGASTS.24700 EUR 3.3.daļa. STALBES PAGASTS40100 EUR </Output>
+        <parameters>(?:(\d+\s(Dienas|Days))|(\d+\s(Mēneši|Months))|(\d+\s(Gadi|Years)))</parameters>
+        <parameters> </parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>6c9bwfv76bh</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+    <ExtractItem xsi:type="ExtractTextItem">
+      <Id>9</Id>
+      <ParentId>0</ParentId>
+      <Name>Price</Name>
+      <Header>Price</Header>
+      <UseRelativeXPath>false</UseRelativeXPath>
+      <RelativeXpath/>
+      <BackUpRelativeXPath/>
+      <BackUpIframeXPath/>
+      <BackUpAbsXPath/>
+      <AllowNull>true</AllowNull>
+      <AllowSkip>false</AllowSkip>
+      <AllowDefaultValue>false</AllowDefaultValue>
+      <AlertWhenNotFound>false</AlertWhenNotFound>
+      <AbsXpath>//div[@id="uxSubjectDescription"]/div[1]/div[7]/div[1]</AbsXpath>
+      <Operations>
+        <Index>107</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>
+    360
+
+
+    Dienas
+</Input>
+        <Output>    360
+    Dienas
+</Output>
+        <parameters>\n(.+)\n\n</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>107</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>    360
+    Dienas
+</Input>
+        <Output>    360    Dienas
+</Output>
+        <parameters>(?:\r\n?|\n)(.+)</parameters>
+        <parameters>$1</parameters>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>710</Index>
+        <Name>Replace with Regular Expression</Name>
+        <Input>    360    Dienas
+</Input>
+        <Output>
+</Output>
+        <parameters>(.+)(Mēneši|Dienas|Month|Days)</parameters>
+        <parameters/>
+        <FormatType>RegReplace</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>681</Index>
+        <Name>Add a prefix</Name>
+        <Input>
+</Input>
+        <Output> 
+</Output>
+        <parameters> </parameters>
+        <FormatType>AddPrefix</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <Operations>
+        <Index>968</Index>
+        <Name>Add a suffix</Name>
+        <Input> 
+</Input>
+        <Output> 
+ </Output>
+        <parameters> </parameters>
+        <FormatType>AddSuffix</FormatType>
+        <regMatch>function(e,t,n){if(null===e||""===e||null===t||""===t)return"";if(n){var r=N.b.matches(e,t).Result,a="";return null!==r&amp;&amp;void 0!==r&amp;&amp;r.length&gt;0&amp;&amp;(a=r.join("\r\n")),a}var i="",o=N.b.match(e,t).Result;return null!==o&amp;&amp;void 0!==o&amp;&amp;(i=o),i}</regMatch>
+      </Operations>
+      <IsIFrame>false</IsIFrame>
+      <IFrameAbsXPath/>
+      <CustomizeField/>
+      <ExtractType>ExtractText</ExtractType>
+      <FixedValue/>
+      <SourceUrl/>
+      <IsAppend>false</IsAppend>
+      <MatchAll>false</MatchAll>
+      <NullValue/>
+      <OCRType/>
+      <PageSourceReg/>
+      <type/>
+      <IsUniqueGroup>false</IsUniqueGroup>
+      <UseBackupPath>false</UseBackupPath>
+      <UseBackupIframePath>false</UseBackupIframePath>
+      <UseBackupRelativePath>false</UseBackupRelativePath>
+      <IsDownloadFile>false</IsDownloadFile>
+      <downloadFieldKey/>
+      <DownloadFileConfig>
+        <downloadFileRenameType>1</downloadFileRenameType>
+        <repeatValue>2</repeatValue>
+        <mutipleUrlConfig>
+          <isIncludeMutipleUrl>false</isIncludeMutipleUrl>
+          <urlSplitType>0</urlSplitType>
+        </mutipleUrlConfig>
+        <field/>
+      </DownloadFileConfig>
+      <belongTo>ual3fmhp6q</belongTo>
+      <uid>v7p15a9mgv8</uid>
+      <MenuType>ShowXpathMenu</MenuType>
+      <SampleValue/>
+    </ExtractItem>
+  </Items>
+</ExtractTemplate>
